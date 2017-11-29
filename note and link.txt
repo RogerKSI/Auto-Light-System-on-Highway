@@ -1,0 +1,34 @@
+Tutorial Raspberry Pi
+ - https://www.raspberrypi.org/resources/learn/
+ 
+ - https://projects.raspberrypi.org/en/projects/physical-computing
+ 
+ 
+https://projects.raspberrypi.org/en/projects/physical-computing
+ - PIR (motion) sensor  ( section Using a PIR sensor )
+ - LED	( section Switching an LED on and off )
+ 
+ 
+PiCamera
+ - https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
+ 
+ 
+SSH
+ - ssh <username>@<ip>
+ 
+Remote
+ - Window
+	- using remote desktop connection <ip>
+	
+UDP communication
+ - https://www.youtube.com/watch?v=u6kuHMY5pHM
+ 
+Create Ad-hoc network
+ - http://duinokit.com/ShowAndTell/index.php?topic=50.0
+ 
+ cd /etc/NetworkManager/system-connections/....
+ sudo service network-manager restart
+ 
+ cd /etc/network
+ cp interfaces.orig interfaces
+ cp interfaces.adhoc interfaces
